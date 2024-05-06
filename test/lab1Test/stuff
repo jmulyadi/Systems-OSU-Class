@@ -1,0 +1,21 @@
+Sun Jan 14 17:57:12 EST 2024
+total 84
+-rw-------. 1 mulyadi.8 domain users   29 Jan 14 17:57 stuff
+-rwx------. 1 mulyadi.8 domain users 9832 Jan 14 17:56 zd
+-rw-------. 1 mulyadi.8 domain users 4272 Jan 14 17:56 zd.o
+-rwx------. 1 mulyadi.8 domain users 9664 Jan 14 17:56 lab1
+-rw-------. 1 mulyadi.8 domain users 3880 Jan 14 17:56 lab1.o
+-rw-------. 1 mulyadi.8 domain users   29 Jan 14 17:56 headers
+-rw-------. 1 mulyadi.8 domain users   91 Jan 14 17:56 zd.h
+-rw-------. 1 mulyadi.8 domain users   69 Jan 14 17:56 lab1.h
+-rw-------. 1 mulyadi.8 domain users   71 Jan 14 17:56 zd.vs
+-rw-------. 1 mulyadi.8 domain users   49 Jan 14 17:56 lab1.vs
+-rw-------. 1 mulyadi.8 domain users  675 Jan 14 17:56 tags
+-rw-r--r--. 1 mulyadi.8 domain users 5638 Jan 14 17:55 lab1-4.zip
+-rw-------. 1 mulyadi.8 domain users  342 Jan 14 17:52 lab1.c
+-rw-------. 1 mulyadi.8 domain users 1885 Jan 14 17:52 makefile
+-rw-------. 1 mulyadi.8 domain users 2880 Jan 14 15:47 README_LAB1
+-rw-------. 1 mulyadi.8 domain users   32 Jan 13 19:31 include.h
+-rw-------. 1 mulyadi.8 domain users 1397 Jan 13 18:28 zd.c
+-rwx------. 1 mulyadi.8 domain users 1647 Jan 13 15:04 headers.sh
+-rw-------. 1 mulyadi.8 domain users  252 Jan 11  2023 headers.awk

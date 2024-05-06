@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CFLAGS	makefile	/^CFLAGS= -std=c99 -pedantic -Wformat -Wreturn-type $/;"	m
+Operation	bonus.c	/^struct Operation {$/;"	s	file:
+Operation	lab6.c	/^struct Operation {$/;"	s	file:
+a	bonus.c	/^	int a,b;$/;"	m	struct:Operation	file:
+a	lab6.c	/^	int a,b;$/;"	m	struct:Operation	file:
+b	bonus.c	/^	int a,b;$/;"	m	struct:Operation	file:
+b	lab6.c	/^	int a,b;$/;"	m	struct:Operation	file:
+divide	ops.s	/^divide:$/;"	l
+do_op	do_op.s	/^do_op:  $/;"	l
+left_shift	ops.s	/^left_shift:$/;"	l
+main	bonus.c	/^int main()$/;"	f
+main	lab6.c	/^int main()$/;"	f
+main	ops_test.c	/^int main()$/;"	f
+mathOp	bonus.c	/^typedef int (*mathOp)(int a, int b);$/;"	t	file:
+mathOp	lab6.c	/^typedef int (*mathOp)(int a, int b);$/;"	t	file:
+mathOp	ops_test.c	/^typedef int (*mathOp)(int a, int b);$/;"	t	file:
+operation	bonus.c	/^	short operation;$/;"	m	struct:Operation	file:
+operation	lab6.c	/^	short operation;$/;"	m	struct:Operation	file:
+ops_table	bonus.c	/^struct Operation ops_table[] = {$/;"	v	typeref:struct:Operation
+ops_table	lab6.c	/^struct Operation ops_table[] = {$/;"	v	typeref:struct:Operation
+plus	ops.s	/^plus:$/;"	l
+printable	bonus.c	/^	char printable;$/;"	m	struct:Operation	file:
+printable	lab6.c	/^	char printable;$/;"	m	struct:Operation	file:
+result	bonus.c	/^	int result;$/;"	m	struct:Operation	file:
+result	lab6.c	/^	int result;$/;"	m	struct:Operation	file:
+search	lab6.c	/^struct Operation *search(long count, struct Operation ops[], mathOp table[])$/;"	f
+table	bonus.c	/^mathOp table[] = { plus, left_shift, times, divide};$/;"	v
+table	lab6.c	/^mathOp table[] = { plus, left_shift, times, divide};$/;"	v
+times	ops.s	/^times:$/;"	l

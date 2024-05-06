@@ -1,0 +1,8 @@
+:1,$s/double brutus\[\]/struct Buckeye *brutus/gp
+:1,$s/brutus\[X_POSITION\]/brutus->x_position/gp
+:1,$s/brutus\[Y_POSITION\]/brutus->y_position/gp
+:1,$s/brutus\[X_VELOCITY\]/brutus->x_velocity/gp
+:1,$s/brutus\[Y_VELOCITY\]/brutus->y_velocity/gp
+:1,$s/brutus\[JUMP_VELOCITY\]/brutus->jump_velocity/gp
+:1,$s/subscripts\.h/structs.h/gp
+:wq

@@ -1,0 +1,13 @@
+int any(void *head, CriteriaFunction yes, void *helper);
+bool deleteAll(void *data, void *helper);
+int deleteSomeTest(void *p2head, CriteriaFunction mustGo, void *helper, ActionFunction disposal, int text);
+bool deleteUpperCase(void *data, void *helper);
+void disposal(void *data);
+bool first_letter(void *data1, void *data2);
+bool hasUpper(void *data, void *helper);
+void insertTest(void *p2head, void *data, ComparisonFunction goesInFrontOf, int text);
+void iterateTest(void *head, ActionFunction doThis);
+int main();
+void print(void *data);
+void sortTest(void *hptr, ComparisonFunction cf);
+bool t(void *data1, void *data2);

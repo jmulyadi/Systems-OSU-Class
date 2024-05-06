@@ -1,0 +1,47 @@
+THIS IS THE README FILE FOR LAB 1.
+
+Josh Mulyadi
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE PERFORMED ALL
+OF THE WORK TO DETERMINE THE ANSWERS FOUND WITHIN THIS FILE MYSELF WITH
+NO ASSISTANCE FROM ANY PERSON OTHER THAN THE INSTRUCTOR OF THIS COURSE
+OR ONE OF OUR UNDERGRADUATE GRADERS.
+
+1. Within gdb, the value of the variable i before the initialization is: 0
+
+2. Within gdb, the value of the variable i after the initialization is: 1
+
+3. What does touch do and why did it change the behavior of make?
+Touch makes it so if there isn't the file it'll create an empty file with that name or if it already exists then it changes its timestamp which can be useful when one wants to remake files. The reason is because make won't run again if everything has already been made, but if touch is used to change the timestamp make will run again because it thinks changes have been made even though touch doesn't change the file contents.
+
+4. In gdb, you walked through the code using next and using step –
+describe the differences in their behavior:
+The step command is used to execute the current line of code and, if the current line contains a function call, it will step into that function and stop at the first line of the called function.
+The next command is used to execute the current line of code and then stop at the first instruction of the next line in the source code. If the current line contains a function call, next will execute the entire function and stop at the line after the function call.
+It treats function calls as a single step, so it won't enter into the details of the function. Instead, it will execute the function and stop at the line after the function call.
+
+5. In gdb, what did finish do?
+It made it so what ever function was currently taking placed completed all the way 
+
+6. On the final run, after you set the value of x to 200, what was the
+value of i back in the calling function?
+i = 1. C is pass by value so changing x doesn't affect i.
+
+7. What kind of recognizable things were found in the tags file?
+There were all the flags from the gcc compling. There was also the functions main and doubleIt. It has every file needed to run which were lab1.c, lab1.h, zd.c, and include.h.
+
+8. How do the contents of the .vs file compare to your C code?
+The vs file contains only the declarations of functions while the C code contains both the declarations and the definitions or implementations of the functions.
+
+9. Give the line number and filename for where the zd executable
+crashed.
+25, zd.c
+
+10. What was the value of p in zd when zd crashed?
+p = 25
+
+11. What did the backtrace command show you in gdb?
+It showed all the frames in the program before it crashed. It also says which lines and what file it is at.
+
+12. What are you expected to do before asking anyone for help with a
+run-time crash of your program?
+YOU HAVE TO RUN GBD

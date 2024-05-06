@@ -1,0 +1,7 @@
+Josh Mulyadi
+To run test make sure to be in the correct directiory 
+then just do 
+python hash_test.py
+or maybe 
+python3 hash_test.py 
+or whatever version you have
